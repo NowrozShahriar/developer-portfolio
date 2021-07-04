@@ -53,6 +53,9 @@ h3 {
     box-shadow: 7px 7px 40px grey;
     padding: 30px;
 }
+.cards h1{
+    font-size: 42px;
+}
 #card1{
     border-left: 10px solid;
     border-radius: 1pt;
