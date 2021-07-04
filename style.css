@@ -2,16 +2,6 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1 {
-    font-size: 50px;
-}
-.name {
-    color: seagreen;
-}
-h3 {
-    color: mediumseagreen;
-    font-size: 30px;
-}
 .flex-container {
     display: flex;
 }
@@ -20,11 +10,11 @@ h3 {
     padding-left: 5%;
     padding-right: 5%;
 }
-p {
-    font-weight: 100;
+h1 {
+    font-size: 50px;
 }
-img {
-    width: 80%;
+.name {
+    color: seagreen;
 }
 .link-button {
     color: white;
@@ -33,6 +23,9 @@ img {
     padding: 10px 40px;
     border-radius: 5px;
     background-image: linear-gradient(mediumseagreen, seagreen);
+}
+img {
+    width: 80%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -45,6 +38,14 @@ img {
 }
 .scnd-img {
     margin-top: 20px;
+}
+#exp {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+h3 {
+    color: mediumseagreen;
+    font-size: 30px;
 }
 .cards {
     width: 40%;
@@ -76,8 +77,4 @@ footer p {
 }
 .help {
     color: gray;
-}
-#exp {
-    margin-left: 5%;
-    margin-bottom: 5%;
 }
