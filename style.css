@@ -10,6 +10,7 @@ h1 {
 }
 h3 {
     color: mediumseagreen;
+    font-size: 30px;
 }
 .flex-container {
     display: flex;
@@ -67,7 +68,7 @@ img {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-bottom: 125px;
+    margin: 125px 0;
 }
 footer p {
     text-align: center;
@@ -75,4 +76,8 @@ footer p {
 }
 .help {
     color: gray;
+}
+#exp {
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
