@@ -8,7 +8,10 @@ h1 {
 .name {
     color: seagreen;
 }
-section {
+h3 {
+    color: mediumseagreen;
+}
+.flex-container {
     display: flex;
 }
 .half-width {
@@ -16,7 +19,10 @@ section {
     padding-left: 5%;
     padding-right: 5%;
 }
-.half-width img {
+p {
+    font-weight: 100;
+}
+img {
     width: 80%;
 }
 .link-button {
@@ -38,4 +44,35 @@ section {
 }
 .scnd-img {
     margin-top: 20px;
+}
+.cards {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 7px 7px 40px grey;
+    padding: 30px;
+}
+#card1{
+    border-left: 10px solid;
+    border-radius: 1pt;
+    border-image: linear-gradient(lightgreen, mediumseagreen);
+    border-image-slice: 1;
+}
+#card2 {
+    border-left: 10px solid;
+    border-radius: 1pt;
+    border-image: linear-gradient(mediumseagreen, lightgreen);
+    border-image-slice: 1;
+}
+.exp-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 125px;
+}
+footer p {
+    text-align: center;
+    color: gray;
+}
+.help {
+    color: gray;
 }
